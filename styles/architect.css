@@ -292,9 +292,8 @@ main {
     }
     .ten-years-badge{
         max-width: 300px;
-        margin-left: 57px;
-        margin-right: 57px;
-        bottom: 80px;
+        position: static;
+        margin: 10px auto;
     }
 }
 
@@ -364,7 +363,7 @@ main {
     }
     .ten-years-badge{
         max-width: 300px;
-        /* position: static; */
+        position: static;
         margin: 10px auto;
     }
 }
