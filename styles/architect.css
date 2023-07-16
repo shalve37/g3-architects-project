@@ -141,6 +141,10 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
+.features-image img{
+    height: 90%;
+    margin-left: 50px;
+}
 .ten-years-badge{
     border-radius: 5px;
     background:#FF900E;
@@ -148,9 +152,14 @@ main {
     width: 250px;
     text-align: center;
     padding:40px 30px;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+
 }
 .ten-years-title{
     font-size: 3rem;
+    margin: 0px;
 }
 .ten-years-description{
     font-size: 1.25rem;
@@ -268,7 +277,25 @@ main {
         align-items: center;
         gap: 30px;
     }
+    .features-container{
+        flex-direction: column;
+        padding: 50px 10px;
 
+    }
+    .features-image{
+        padding:0px 10px;
+        margin: 0px;
+    }
+    .features-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .ten-years-badge{
+        max-width: 300px;
+        margin-left: 57px;
+        margin-right: 57px;
+        bottom: 80px;
+    }
 }
 
 /* medium devices */
@@ -321,5 +348,23 @@ main {
         flex-direction: column;
         align-items: center;
         gap: 40px;
+    }
+    .features-container{
+        flex-direction: column;
+        padding: 50px 10px;
+
+    }
+    .features-image{
+        padding:0px 10px;
+        margin: 0px;
+    }
+    .features-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .ten-years-badge{
+        max-width: 300px;
+        /* position: static; */
+        margin: 10px auto;
     }
 }
