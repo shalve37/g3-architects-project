@@ -172,17 +172,33 @@ main {
     .teams-container {
         flex-direction: column-reverse;
         padding: 5px;
+
     }
 
     .teams-text {
         padding-bottom: 10px;
         padding-left: 0px;
+        margin: 5px;
+        text-align: center;
     }
 
     .teams-img-container {
         grid-template-columns: 1fr;
         padding: 5px;
         justify-content: center;
+    }
+    .facts-container{
+        padding: 10px;
+    }
+    .facts-text-container{
+        padding: 10px;
+        text-align: center;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding:0px  50px 50px 50px;
     }
 }
 
@@ -208,5 +224,23 @@ main {
     .teams-img-container {
         padding-bottom: 50px;
         justify-content: center;
+    }
+    .teams-text {
+        padding-bottom: 10px;
+        padding-left: 0px;
+        margin: 5px;
+        text-align: center;
+    }
+    .facts-container{
+        padding: 20px;
+    }
+    .facts-text-container{
+        padding: 10px;
+        text-align: center;
+    }
+    .facts-card-container{
+        justify-content: center;
+        gap: 15px;
+        padding:0px  50px 50px 50px;
     }
 }
