@@ -4,6 +4,12 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+.primary-title {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .primary-description{
     color: #727272;
     padding-bottom: 20px;
@@ -33,11 +39,6 @@ nav {
     align-items: center;
 }
 
-.nav-title {
-    color: #131313;
-    font-size: 2.5rem;
-    font-weight: 700;
-}
 
 nav>ul {
     display: flex;
@@ -105,6 +106,10 @@ main{
 .features-span{
     color: #FF900E;
     font-weight: 700;
+}
+.facts-container{
+    padding-top: 20px;
+    padding-left: 100px;
 }
 /* responsive styles */
 /* small devices */
