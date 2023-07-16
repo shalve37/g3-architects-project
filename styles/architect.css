@@ -1,13 +1,26 @@
+/* shared styles */
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+.primary-button{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FF900E;
+    cursor: pointer;
+}
+
 
 /* header styles */
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 30px 200px;
+    
 }
 
 nav {
@@ -56,6 +69,32 @@ nav li a {
     padding-bottom: 20px;
 }
 .banner-picture{
-    margin-top: 0px;
     width: 100%;
+}
+
+
+/* responsive styles */
+/* small devices */
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        margin: 0px;
+    }
+    nav li{
+        margin: 15px;
+    }
+}
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
